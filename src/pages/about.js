@@ -6,7 +6,6 @@ import Layout from "../components/layout"
 export default function About({ data }) {
   return (
     <Layout>
-
       <Header headerText={`About ${data.site.siteMetadata.title}`} />
       <p>Such wow. Very React.</p>
     </Layout>
